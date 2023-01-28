@@ -20,4 +20,4 @@ Hava durumu için ise openweather.com sitesine gidip buradan bir api key almalı
 Projeyi Hazırlayan
 
 Nedim Kaçan
-# Seyahat-Acentesi-Otomasyonu
+# Üniversite Nesne Tabanlı 1 Ders Ödevi
