@@ -154,7 +154,7 @@ namespace Controller
                 mess.Body = htmlString;
 
                 SmtpClient client = new SmtpClient();
-                client.Credentials = new System.Net.NetworkCredential(addressFrom.ToString(), "omyujqyohaearuhl");
+                client.Credentials = new System.Net.NetworkCredential(addressFrom.ToString(), "Buraya gmailden aldığınız 3. parti uygulama şifrenizi girin");
                 client.Host = "smtp.gmail.com";
                 client.Port = 587;
                 client.EnableSsl = true;
