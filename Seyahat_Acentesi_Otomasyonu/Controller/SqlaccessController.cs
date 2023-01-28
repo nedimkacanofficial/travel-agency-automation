@@ -11,7 +11,7 @@ namespace Controller
     {
         public static SqlConnection connect()
         {
-            SqlConnection conn = new SqlConnection("Server=localhost;Database=seyahat_acentesi_otomasyonu_yeni;UId=ndmkcn;Password=Erdem123.;");
+            SqlConnection conn = new SqlConnection("Server=localhost;Database=seyahat_acentesi_otomasyonu_yeni;UId=sql_kullanici_adiniz;Password=sql_sifreniz;");
             return conn;
         }
         public static int openClose(SqlCommand cmd)
