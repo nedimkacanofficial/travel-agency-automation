@@ -16,7 +16,7 @@ namespace Controller
         {
             try
             {
-                MailAddress addressFrom = new MailAddress("ndmkcn1453@gmail.com");
+                MailAddress addressFrom = new MailAddress("Buraya mail adresi giriniz");
                 MailAddress addressTo = new MailAddress(targetMail);
                 MailMessage mess = new MailMessage(addressFrom, addressTo);
                 mess.Subject = "KEYF TURİZM BİLET BİLGİLERİ";
