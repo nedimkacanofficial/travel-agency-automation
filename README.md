@@ -17,7 +17,7 @@ Ayrıca MailerController içerisindeki mail bölümünden ise kendi mail adresin
 Hava durumu için ise openweather.com sitesine gidip buradan bir api key almalısınız ve WeatherController 
 üzerinden kendi api keyinizi buraya yazdıktan sonra proje sorunsuz bir şekilde çalışacaktır.
 
-Projeyi Hazırlayanlar 
+Projeyi Hazırlayan
 
 Nedim Kaçan
 # Seyahat-Acentesi-Otomasyonu
