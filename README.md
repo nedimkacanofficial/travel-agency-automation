@@ -20,6 +20,4 @@ Hava durumu için ise openweather.com sitesine gidip buradan bir api key almalı
 Projeyi Hazırlayanlar 
 
 Nedim Kaçan
-Devrim Macü
-Muhammed Esatoğlu
 # Seyahat-Acentesi-Otomasyonu
