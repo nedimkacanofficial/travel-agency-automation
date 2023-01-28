@@ -70,7 +70,7 @@ namespace Controller
                 try
                 {
                     message.Text = "";
-                    string apppid = "29fb05a22bbc6fbc24f12212fa59fc02";
+                    string apppid = "Buraya openweathermap.org dan aldığınız api key";
                     string request = string.Format("https://api.openweathermap.org/data/2.5/weather?q={0}&mode=xml&units=metric&lang=tr&appid={1}", textboxcity.Text, apppid);
                     XDocument response = XDocument.Load(request);
                     var icon = response.Descendants("weather").ElementAt(0).Attribute("icon").Value;
