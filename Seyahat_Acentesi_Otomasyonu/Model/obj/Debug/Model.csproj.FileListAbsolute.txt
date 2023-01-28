@@ -1,0 +1,6 @@
+C:\Users\Nedim Kaçan\Source\Repos\Seyahat_Acentesi_Otomasyonu\Model\bin\Debug\Model.dll
+C:\Users\Nedim Kaçan\Source\Repos\Seyahat_Acentesi_Otomasyonu\Model\bin\Debug\Model.pdb
+C:\Users\Nedim Kaçan\Source\Repos\Seyahat_Acentesi_Otomasyonu\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\Nedim Kaçan\Source\Repos\Seyahat_Acentesi_Otomasyonu\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Nedim Kaçan\Source\Repos\Seyahat_Acentesi_Otomasyonu\Model\obj\Debug\Model.dll
+C:\Users\Nedim Kaçan\Source\Repos\Seyahat_Acentesi_Otomasyonu\Model\obj\Debug\Model.pdb
