@@ -1,23 +1,22 @@
-# Seyahat-Acentesi-Otomasyonu
-Seyahat Acentesi Otomasyonu
+# Travel-Agency-Automation
 
-Proje 3 yetkilendirmeden oluşuyor. Projenin sql dosyası execute edildikten sonra veri tabanına ilk personel eklenirken
-yetki durumu 0 olarak seçilirse admin yetkisi verilir eğer 1 seçilirse bölge müdürü yetkisi verilir eğer 2 seçilirse
-o zaman da en düşük yetkili yazıhane personelleri vb işlemleri yapan personel sisteme giriş yapabilecek.
+The project consists of 3 authorizations. After the project's SQL file is executed, the first personnel is added to the database
+If the authority status is selected as 0, admin authority is given. If 1 is selected, regional manager authority is given. If 2 is selected, regional manager authority is given.
+Then, the lowest authorized office staff, etc., will be able to log into the system.
 
-Projeyi çalıştırmak için öncelikle sql dosyasını sql server management üzerinden çalıştırmalıyız. Daha sonra ise açılan
-sql dosyasının en üst satırında yazan use ile başlayan kısım veri tabanı adı burada yazan isimle bir veri tabanı
-oluşturduktan sonra bunu execute ile çalıştırmalısın bu artık tablolar ve procedurler veri tabanına yüklenmiş olacak
-daha sonra veri tabanı bağlantı kısmını dosya proje dosyasını açıp SqlAccess sınıfında tanımlı olan 
-bağlantı cümleciğini kendi bilgilerinize göre dolduracaksınız. 
+To run the project, we must first run the sql file through sql server management. Then it opened
+The database name in the section starting with use written on the top line of the sql file is a database with the name written here.
+After creating it, you should run it with execute. Now the tables and procedures will be loaded into the database.
+Then open the database connection section file project file and enter the file defined in the SqlAccess class.
+You will fill in the link sentence according to your own information.
 
-Ayrıca MailerController içerisindeki mail bölümünden ise kendi mail adresinizi ve gmail tarafından verilen
-3 parti key anahtarı ile kendi bilgilerinizi girdikten sonra mailer kısmıda çalışır bir hale gelecek
+In addition, you can enter your own e-mail address and the address given by Gmail from the e-mail section in MailerController.
+After you enter your information with the 3 party key, the mailer section will also become functional.
 
-Hava durumu için ise openweather.com sitesine gidip buradan bir api key almalısınız ve WeatherController 
-üzerinden kendi api keyinizi buraya yazdıktan sonra proje sorunsuz bir şekilde çalışacaktır.
+For weather, you should go to openweather.com and get an api key from there and use WeatherController.
+After you write your own API key here, the project will run smoothly.
 
-Projeyi Hazırlayan
+Project Prepared by
 
 Nedim Kaçan
-# Üniversite Nesne Tabanlı 1 Ders Ödevi
+# University Object Based 1 Course Assignment
